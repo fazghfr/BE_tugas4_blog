@@ -40,6 +40,7 @@ require (
 	github.com/jackc/pgx/v5 v5.3.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/joho/godotenv v1.5.1
 	github.com/mashingan/smapping v0.1.19
 	golang.org/x/crypto v0.6.0
 	golang.org/x/text v0.7.0 // indirect
