@@ -8,5 +8,5 @@ type Blog struct {
 	Title    string    `json:"title"`
 	Content  string    `json:"content"`
 	Likes    int       `json:"likes"`
-	Comments []Comment
+	Comments []Comment `gorm:"foreignKey:BlogID"`
 }
